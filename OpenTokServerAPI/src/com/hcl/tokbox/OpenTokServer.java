@@ -27,8 +27,8 @@ public class General {
 	@Produces("application/json")
 	public Response createOpenTokSession() {
 		String mStoreSessionId = "1_MX40NTY0NDg0Mn5-MTQ3MjczMDQzNzkxNH5oalBoNHJER0tITE12eEx2SGl3Q01YQVJ-fg";
-		int apiKey = 45630132; // YOUR API KEY
-		String apiSecret = "77a2b6bc6c63ceb507e64e86b5f854d1642048a0";
+//		int apiKey = 45630132; // YOUR API KEY
+//		String apiSecret = "77a2b6bc6c63ceb507e64e86b5f854d1642048a0";
 		opentok = new OpenTok(apiKey, apiSecret);
 		Session session = null;
 		String token = "";
